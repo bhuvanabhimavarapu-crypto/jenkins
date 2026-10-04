@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>JNTUH Event Registration Form</title>
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+             background-color: #f4f4f4;
+         }
+         .container {
+             width: 400px;
+             margin: 50px auto;
+             background: white:
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+         }
+         h2 {
+             text-align: center;
+         }
+
+         label {
+             display: block;
+             margin-top: 10px;
+         }
+      
+         input, select {
+           width: 100%;
+           padding: 8px;
+           margin-top: 5px;
+           box-sizing: border-box;
+        }
+
+        button {
+          width: 100%;
+          padding: 10px;
+          margin-top: 15px;
+          background-color: #4CAF50;
+          color: white:
+          border: none;
+          cursor: pointer:
+          font-size: 16px;
+      }
+       
+      button: hover {
+         background-color: #45a049;
+      }
+
+   </style>
+</head>
+<body>
+
+<div class = "container">
+     <h2>Event Registration Form</h2>
+     <form action="#" method="post">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" email="email required>
+ 
+          <label for="phone">phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+
+          <label for="college">College Name</label>
+          <input type="text" id="college" name="college" required>
+ 
+          <label for="event">Select Event</label>
+          <select id="event" name="event" required>
+              <option value="">Choose an Event</option>
+              <option value="Hackathon">Hackathon</option>
+              <option value="Debate">Debate</option>
+              <option value="Workshop">Workshop</option>
+              <option value= "Quiz">Quiz Competition</option>
+         </select>
+ 
+         <button type="submit">Register</button>
+     </form>
+</div>
+
+</body>
+</html>
